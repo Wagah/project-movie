@@ -1,0 +1,15 @@
+<div class="jumbotron">
+  <h1>{{movies.title}}</h1>
+  <p class="lead">
+    <img src="images/36.jpg"alt="movie"><br>
+    Finger licking good.
+  </p>
+  <p><a class="btn btn-lg btn-success" ng-href="#/">{{movies.year_of_release}}</a></p>
+</div>
+<h2>Movie Director: {{movies.director}}</h2>
+<h2>Movie Rating: {{movies.rating}}</h2>
+<a class="btn btn-primary" ng-href="#/editMovie/{{movies._id}}">Update Movie</a>
+<div class="form-group">
+<br>
+       <input type="submit" class="btn btn-primary" value="Delete Movie"/>
+	</div>	
